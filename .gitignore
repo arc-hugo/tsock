@@ -1,3 +1,18 @@
+# build and install
+build/
+lib/
+bin/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+install_manifest.txt
+
+# clangd
+compile_commands.json
+.cache/
+
 # Prerequisites
 *.d
 
