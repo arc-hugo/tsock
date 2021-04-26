@@ -7,8 +7,7 @@ Le programme une fois lancé peut adopter deux comportement :
 
 ## Installation
 ### Prérequis
-- Système d'exploitation UNIX
-- Compilateur GCC
+- Compilateur C (e.g. gcc)
 - CMake version >= 3.0
 
 ### Procédure
