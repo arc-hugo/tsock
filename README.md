@@ -12,7 +12,7 @@ Le programme une fois lancé peut adopter deux comportement :
 - CMake version >= 3.0
 
 ### Procédure
-Lancer les commandes suivante sur votre terminal  
+Lancer les commandes suivante sur votre terminal (sous Bash)
 ```bash
 git clone https://github.com/arc-hugo/tsock
 cd tsock
@@ -37,4 +37,4 @@ tsock -p [-options] port
 Dans chaque mode, il est possible d'ajouter des options :
 - `-u` permet d'utiliser le protocole UDP plutôt que TCP.
 - `-n ##` permet d'indiquer un nombre de messages à transmettre (par défaut 10 pour la source et infini pour le puits).
-- `-l ##` permet d'indiquer un nombre de caractères à envoyer par message aavec un minimum de 6 (30 par défaut).
+- `-l ##` permet d'indiquer un nombre de caractères à envoyer par message avec un minimum de 6 (30 par défaut).
